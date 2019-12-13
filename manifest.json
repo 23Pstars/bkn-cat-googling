@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "BKN CAT Googling",
+    "description": "Munculkan icon googling pertanyaan pada soal simulasi CAT.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "script.js"
+            ],
+            "matches": [
+                "http://103.8.238.61/simulasi/ujian.php"
+            ]
+        }
+    ]
+}
